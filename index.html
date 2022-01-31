@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mini shopping shop</title>
+    <link rel="stylesheet" href="./styles/css/main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>mini shopping shop</title>
-  <link rel="stylesheet" href="./styles/css/main.css">
-</head>
+  <body>
+    <!-- <div id="wrapper"> -->
+    <!-- Logo -->
+    <img src="./styles/img/logo.png" alt="Logo" class="logo" />
+    <!-- Buttons -->
+    <section class="buttons">
+      <button class="btn">
+        <img src="./styles/img/blue_t.png" alt="" class="imgBtn" />
+      </button>
+      <button class="btn">
+        <img src="./styles/img/blue_p.png" alt="" class="imgBtn" />
+      </button>
+      <button class="btn">
+        <img src="./styles/img/blue_s.png" alt="" class="imgBtn" />
+      </button>
+      <button class="btn colorBtn blue">Blue</button>
+      <button class="btn colorBtn yellow">Yellow</button>
+      <button class="btn colorBtn pink">Pink</button>
+    </section>
 
-<body>
-  <div id="wrapper">
-    <header>
-      <div id="logo"><img src="./styles/img/logo.png" alt="logo"></div>
-      <div id="selectBox">
-        <ul>
-          <li><img src="./styles/img/blue_t.png" alt="t"></li>
-          <li><img src="./styles/img/blue_p.png" alt="p"></li>
-          <li><img src="./styles/img/blue_s.png" alt="s"></li>
-          <li class="selText c-blue">Blue</li>
-          <li class="selText c-yellow">Yellow</li>
-          <li class="selText c-pink">Pink</li>
-        </ul>
-      </div>
-    </header>
-    <div id="container">
-
-    </div>
-  </div>
-  <script src="./scripts/main.js"></script>
-</body>
-
+    <!-- Items -->
+    <ul class="items">
+      <li class="item">
+        <img src="./styles/img/blue_t.png" alt="tshirt" class="item_thumnail" />
+        <span class="item__description">male, large</span>
+      </li>
+    </ul>
+    <!-- </div> -->
+    <script src="./scripts/main.js"></script>
+  </body>
 </html>
